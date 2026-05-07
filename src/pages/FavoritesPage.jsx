@@ -1,4 +1,3 @@
-// pages/FavoritesPage.jsx
 import { useNavigate } from 'react-router-dom';
 import { useFavorites } from '../hooks/useFavorites';
 import ProductCard from '../components/ProductCard';
