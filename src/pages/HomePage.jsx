@@ -45,7 +45,6 @@ function HomePage() {
     }
   };
 
-  // Reset + refetch on filter change
   useEffect(() => {
     if (isFirstRender.current) {
       isFirstRender.current = false;
