@@ -47,7 +47,6 @@ body {
   color: var(--color-dark);
 }
 
-/* ── Navbar ── */
 .navbar {
   background-color: var(--color-navbar);
   padding: 16px 24px;
@@ -124,7 +123,6 @@ body {
 
 
 
-/* ── Layout ── */
 .app {
   min-height: 100vh;
 }
@@ -139,7 +137,6 @@ body {
   padding: 24px;
 }
 
-/* ── Sidebar ── */
 .sidebar {
   width: 220px;
   flex-shrink: 0;
@@ -192,7 +189,6 @@ body {
   font-weight: 600;
 }
 
-/* ── Toolbar ── */
 .toolbar {
   display: flex;
   gap: 12px;
@@ -227,7 +223,6 @@ body {
   color: var(--color-text);
 }
 
-/* ── Product Grid ── */
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -248,7 +243,6 @@ body {
   color: var(--color-text-muted);
 }
 
-/* ── Product Card ── */
 .product-card {
   background-color: var(--color-white);
   border: 1px solid var(--color-border);
@@ -329,7 +323,6 @@ body {
   background-color: #d46e1a;
 }
 
-/* ── Detail Page ── */
 .detail-page {
   padding: 24px;
   max-width: 1000px;
@@ -516,7 +509,6 @@ body {
   opacity: 0.85;
 }
 
-/* ── Skeleton ── */
 .skeleton {
   background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
   background-size: 200% 100%;
@@ -550,7 +542,6 @@ body.dark .skeleton-card { background: #1e1e1e; border-color: #2a2a2a; }
 .skeleton-rating { height: 16px; width: 25%; }
 .skeleton-btn    { height: 36px; width: 100%; border-radius: 8px; margin-top: 4px; }
 
-/* ── Toast ── */
 .toast-container {
   position: fixed;
   bottom: 24px;
@@ -580,7 +571,6 @@ body.dark .toast { background: #2a2a2a; color: #f0f0f0; }
   to   { transform: translateX(0);    opacity: 1; }
 }
 
-/* ── Favorites button ── */
 .fav-btn {
   position: absolute;
   top: 10px;
@@ -621,13 +611,11 @@ body.dark .fav-detail-btn { border-color: #3f3f46; color: #d4d4d8; }
 body.dark .fav-detail-btn:hover { background: #27272a; }
 body.dark .fav-detail-btn.active { border-color: #ef4444; color: #fca5a5; background: #1c0a0a; }
 
-/* ── Product card image wrap ── */
 .product-card-img-wrap {
   position: relative;
   overflow: hidden;
 }
 
-/* ── Discount badge ── */
 .discount-badge {
   position: absolute;
   top: 10px;
@@ -640,7 +628,6 @@ body.dark .fav-detail-btn.active { border-color: #ef4444; color: #fca5a5; backgr
   border-radius: 20px;
 }
 
-/* ── Search highlight ── */
 .search-highlight {
   background: #fef08a;
   color: #713f12;
@@ -649,7 +636,6 @@ body.dark .fav-detail-btn.active { border-color: #ef4444; color: #fca5a5; backgr
 }
 body.dark .search-highlight { background: #854d0e; color: #fef9c3; }
 
-/* ── Empty state ── */
 .empty-state {
   text-align: center;
   padding: 5rem 1rem;
@@ -660,7 +646,6 @@ body.dark .search-highlight { background: #854d0e; color: #fef9c3; }
 body.dark .empty-state h3 { color: #d1d5db; }
 .empty-state p  { font-size: 0.95rem; }
 
-/* ── Load more ── */
 .load-more-wrap {
   text-align: center;
   padding: 2.5rem 0;
@@ -679,11 +664,9 @@ body.dark .empty-state h3 { color: #d1d5db; }
 body.dark .load-more-btn { border-color: #3f3f46; color: #d4d4d8; }
 body.dark .load-more-btn:hover { background: #27272a; }
 
-/* ── Price ── */
 .price-wrap { display: flex; align-items: center; gap: 6px; }
 .original-price { font-size: 12px; text-decoration: line-through; color: #9ca3af; }
 
-/* ── Detail page enhancements ── */
 .detail-price-row { display: flex; align-items: center; gap: 12px; margin: 1rem 0; }
 .detail-price { font-size: 2rem; font-weight: 700; color: #111; }
 body.dark .detail-price { color: #f9fafb; }
@@ -695,7 +678,6 @@ body.dark .detail-price { color: #f9fafb; }
 .stock-fill { height: 100%; background: #22c55e; border-radius: 99px; transition: width 0.5s; }
 body.dark .stock-bar { background: #3f3f46; }
 
-/* ── Reviews ── */
 .reviews-section { margin-top: 2rem; }
 .reviews-title { font-size: 1.1rem; font-weight: 600; margin-bottom: 1rem; }
 .review-card {
@@ -712,11 +694,9 @@ body.dark .review-card { border-color: #27272a; background: #1a1a1a; }
 body.dark .review-comment { color: #a1a1aa; }
 .review-date { font-size: 12px; color: #9ca3af; }
 
-/* ── Related section ── */
 .related-section { margin-top: 3rem; }
 .related-title { font-size: 1.4rem; font-weight: 700; margin-bottom: 1.5rem; }
 
-/* ── Responsive ── */
 @media (max-width: 768px) {
   .home-layout {
     flex-direction: column;
