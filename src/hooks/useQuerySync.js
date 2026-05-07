@@ -4,7 +4,6 @@ import { useSearchParams } from 'react-router-dom';
 export function useQuerySync({ search, selectedCategory, sort, setSearch, setSelectedCategory, setSort }) {
   const [searchParams, setSearchParams] = useSearchParams();
 
-  // URL-dən state-ə (ilk render)
   useEffect(() => {
     const q = searchParams.get('search') || '';
     const cat = searchParams.get('category') || 'all';
@@ -12,9 +11,8 @@ export function useQuerySync({ search, selectedCategory, sort, setSearch, setSel
     setSearch(q);
     setSelectedCategory(cat);
     setSort(s);
-  }, []); // eslint-disable-line
-
-  // State-dən URL-ə
+  }, []); 
+  
   useEffect(() => {
     const params = {};
     if (search) params.search = search;
