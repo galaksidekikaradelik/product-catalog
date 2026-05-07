@@ -1,4 +1,3 @@
-// context/FavoritesProvider.jsx
 import { useEffect, useState } from 'react';
 import { FavoritesContext } from './FavoritesContext';
 
